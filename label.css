@@ -2,10 +2,6 @@
     --theme: #1f8fff;
 }
 
-.title {
-    margin-left: 0.3rem;
-}
-
 .label {
     border: 4px solid var(--theme);
 }
