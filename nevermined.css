@@ -1,17 +1,9 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 :root {
     --theme: #1f8fff;
 }
 
 .title {
     margin-left: 0.3rem;
-}
-
-.inline {
-    display: inline;
 }
 
 .label {
