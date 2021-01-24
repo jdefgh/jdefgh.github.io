@@ -1,0 +1,34 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --theme: #1f8fff;
+}
+
+.title {
+    margin-left: 0.3rem;
+}
+
+.inline {
+    display: inline;
+}
+
+.label {
+    border: 4px solid var(--theme);
+}
+
+.label.left {
+    border-radius: 1rem 0 0 1rem;
+    background-color: var(--theme);
+    color: white;
+    margin-right: 0;
+    padding: 0.1rem 0rem 0.1rem 0.3rem;
+}
+
+.label.right {
+    border-radius: 0 1rem 1rem 0;
+    color: var(--theme);
+    margin-left: 0;
+    padding: 0.1rem 0.3rem 0.1rem 0.2rem;
+}
