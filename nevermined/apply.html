@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply for Never Mined (temporary site)</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+<p style="color:red">WARNING! Clicking Apply sends your apply immedately without any confirmation.
+All questions are required except of the last one.</p>
+<label for="discord">Discord name (i.e. name#0001)</label>
+<input type="text" id="discord">
+<p></p>
+<label for="nick">Your full minecraft nick</label>
+<input type="text" id="nick">
+<p></p>
+<label for="age">How old are you?</label>
+<div class="slidecontainer">
+    <input type="range" min="13" max="20" value="13" class="slider" id="age">
+    <span id="age_value" style="display:inline">13</span>
+</div>
+<p></p>
+<div>
+    <label for="pickaxe">Do you have at least Tier 25 Pickaxe? (Yes)</label>
+    <input type="checkbox" id="pickaxe" name="pickaxe">
+</div>
+<p></p>
+<label for="timezone">What time zone are you in? (type "what timezone i am" in google)</label>
+<div class="slidecontainer">
+    <input type="range" min="-12" max="13" value="0" class="slider" id="timezone">
+    <span id="timezone_value" style="display:inline">UTC</span>
+</div>
+<p>Why do you want to be a helper? (At least 100 characters)</p>
+<textarea id="reason" cols="80" rows="5"></textarea>
+<p>What expierience do you have with being a staff member?</p>
+<textarea id="experience" cols="80" rows="5"></textarea>
+<p></p>
+<button type="button" id="submit">Apply</button>
+<p id="result" style="color:gray">Result will appear here.</p>
+<script src="apply.js"></script>
+</body>
+</html>
